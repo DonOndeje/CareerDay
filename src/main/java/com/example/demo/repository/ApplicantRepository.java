@@ -8,5 +8,5 @@ import com.example.demo.models.*;
 
 
 public interface ApplicantRepository extends JpaRepository<Applicant,Integer> {
-       List<Applicant> findByUsername(String username);
+       List<Applicant> findByfirstname(String firstname);
 }
